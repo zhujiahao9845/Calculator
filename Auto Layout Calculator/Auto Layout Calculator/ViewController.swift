@@ -121,13 +121,11 @@ class ViewController: UIViewController {
             
         }
         
-        else {
+        else {      //need to re work on logic
         
             firstNumber == nil ? (firstNumber = temp) : (secondNumber = temp)
             calculated && sender.tag != 12 ? (secondNumber = nil) : ()
-//
             if operatorIndex == 0 && secondNumber != nil {firstNumber = secondNumber; secondNumber = nil}
-//
             if secondNumber == nil {
             
                 sender.tag == 12 ? () : (operatorIndex = sender.tag)
