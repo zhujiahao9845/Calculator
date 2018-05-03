@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func calculator(_ sender: UIButton) {
-    
+    print(sender.currentTitle!)
         if sender.tag == 19 {
         
             makeItZero()
@@ -46,12 +46,26 @@ class ViewController: UIViewController {
         
         else if sender.tag >= 0 && sender.tag <= 9 {
         
+            if calculated == true {
+            
+                if equalSign == true {
+                
+                    makeItZero()
+                
+                }
+            
+            }
+//            else {
+//
+//                firstNumber = 0
+//
+//            }
             value == [String(format: "%.8f", Double.pi)] ? (value = []) : ()
             value.append("\(sender.tag)")
             temp = makeItNumber()
             showResult()
             
-            print("f1:\(firstNumber ?? 0)", "s1;\(secondNumber ?? 0)", "t1:\(temp ?? 0)")
+            print("f1:\(firstNumber ?? 0)", "s1;\(secondNumber ?? 0)", "t1:\(temp ?? 0)", "o:\(operatorIndex)", "c:\(calculated)", "e:\(equalSign)")
         
         }
         
@@ -111,6 +125,9 @@ class ViewController: UIViewController {
         
             firstNumber == nil ? (firstNumber = temp) : (secondNumber = temp)
             calculated && sender.tag != 12 ? (secondNumber = nil) : ()
+//
+            if operatorIndex == 0 && secondNumber != nil {firstNumber = secondNumber; secondNumber = nil}
+//
             if secondNumber == nil {
             
                 sender.tag == 12 ? () : (operatorIndex = sender.tag)
@@ -125,7 +142,7 @@ class ViewController: UIViewController {
             
             }
             
-            print("f2:\(firstNumber ?? 0)", "s2;\(secondNumber ?? 0)", "t2:\(temp ?? 0)", "o:\(operatorIndex)","c:\(calculated)"/*, "e:\(equalSign)"*/)
+            print("f2:\(firstNumber ?? 0)", "s2;\(secondNumber ?? 0)", "t2:\(temp ?? 0)", "o:\(operatorIndex)", "c:\(calculated)", "e:\(equalSign)")
         
         }
     
@@ -141,6 +158,7 @@ class ViewController: UIViewController {
         operatorIndex = 0
         zerosInDecimal = 0
         calculated = false
+        equalSign = false
     
     }
     
