@@ -55,11 +55,6 @@ class ViewController: UIViewController {
                 }
             
             }
-//            else {
-//
-//                firstNumber = 0
-//
-//            }
             value == [String(format: "%.8f", Double.pi)] ? (value = []) : ()
             value.append("\(sender.tag)")
             temp = makeItNumber()
