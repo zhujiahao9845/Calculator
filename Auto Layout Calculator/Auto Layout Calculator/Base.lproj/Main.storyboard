@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,17 +16,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Auto_Layout_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="UgU-c2-q84">
-                                <rect key="frame" x="0.0" y="219" width="414" height="517"/>
+                                <rect key="frame" x="0.0" y="343.66666666666674" width="375" height="468.33333333333326"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="VDv-cG-O3Z">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="102.66666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="93"/>
                                         <subviews>
                                             <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6C7-Up-xfM">
-                                                <rect key="frame" x="0.0" y="0.0" width="102.66666666666667" height="102.66666666666667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="AC">
@@ -37,7 +37,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXM-hb-bcd">
-                                                <rect key="frame" x="103.66666666666669" y="0.0" width="103" height="102.66666666666667"/>
+                                                <rect key="frame" x="94" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="+/-">
@@ -48,7 +48,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMm-AY-DV9">
-                                                <rect key="frame" x="207.66666666666666" y="0.0" width="102.66666666666666" height="102.66666666666667"/>
+                                                <rect key="frame" x="188" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="%">
@@ -59,7 +59,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhc-9o-0Vh">
-                                                <rect key="frame" x="311.33333333333331" y="0.0" width="102.66666666666669" height="102.66666666666667"/>
+                                                <rect key="frame" x="282" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="/">
@@ -72,10 +72,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ag4-6H-sEO">
-                                        <rect key="frame" x="0.0" y="103.66666666666669" width="414" height="102.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="94" width="375" height="92.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hew-D2-9Og">
-                                                <rect key="frame" x="0.0" y="0.0" width="102.66666666666667" height="102.66666666666667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="93" height="92.666666666666671"/>
                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="7">
@@ -86,7 +86,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qe-VM-OeW">
-                                                <rect key="frame" x="103.66666666666669" y="0.0" width="103" height="102.66666666666667"/>
+                                                <rect key="frame" x="94" y="0.0" width="93" height="92.666666666666671"/>
                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="8">
@@ -97,7 +97,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZ1-da-Tc9">
-                                                <rect key="frame" x="207.66666666666666" y="0.0" width="102.66666666666666" height="102.66666666666667"/>
+                                                <rect key="frame" x="188" y="0.0" width="93" height="92.666666666666671"/>
                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="9">
@@ -108,7 +108,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Je8-qR-w9w">
-                                                <rect key="frame" x="311.33333333333331" y="0.0" width="102.66666666666669" height="102.66666666666667"/>
+                                                <rect key="frame" x="282" y="0.0" width="93" height="92.666666666666671"/>
                                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="*">
@@ -121,10 +121,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="iSa-Ki-zJt">
-                                        <rect key="frame" x="0.0" y="207.33333333333334" width="414" height="102.33333333333334"/>
+                                        <rect key="frame" x="0.0" y="187.66666666666669" width="375" height="93"/>
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2a-qp-HFd">
-                                                <rect key="frame" x="0.0" y="0.0" width="102.66666666666667" height="102.33333333333333"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="4">
@@ -135,7 +135,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxi-PN-Yyu">
-                                                <rect key="frame" x="103.66666666666669" y="0.0" width="103" height="102.33333333333333"/>
+                                                <rect key="frame" x="94" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="5">
@@ -146,7 +146,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8h-Yg-RSx">
-                                                <rect key="frame" x="207.66666666666666" y="0.0" width="102.66666666666666" height="102.33333333333333"/>
+                                                <rect key="frame" x="188" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="6">
@@ -157,7 +157,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wo4-j6-7GC">
-                                                <rect key="frame" x="311.33333333333331" y="0.0" width="102.66666666666669" height="102.33333333333333"/>
+                                                <rect key="frame" x="282" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="-">
@@ -170,10 +170,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="yfw-if-cub">
-                                        <rect key="frame" x="0.0" y="310.66666666666663" width="414" height="102.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="281.66666666666669" width="375" height="92.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7x-5M-X0m">
-                                                <rect key="frame" x="0.0" y="0.0" width="102.66666666666667" height="102.66666666666667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="93" height="92.666666666666671"/>
                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="1">
@@ -184,7 +184,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEP-sq-cMz">
-                                                <rect key="frame" x="103.66666666666669" y="0.0" width="103" height="102.66666666666667"/>
+                                                <rect key="frame" x="94" y="0.0" width="93" height="92.666666666666671"/>
                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="2">
@@ -195,7 +195,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2B-1K-ZDF">
-                                                <rect key="frame" x="207.66666666666666" y="0.0" width="102.66666666666666" height="102.66666666666667"/>
+                                                <rect key="frame" x="188" y="0.0" width="93" height="92.666666666666671"/>
                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="3">
@@ -206,7 +206,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42P-cB-9vl">
-                                                <rect key="frame" x="311.33333333333331" y="0.0" width="102.66666666666669" height="102.66666666666667"/>
+                                                <rect key="frame" x="282" y="0.0" width="93" height="92.666666666666671"/>
                                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="+">
@@ -219,10 +219,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ldq-t8-ZQO">
-                                        <rect key="frame" x="0.0" y="414.33333333333337" width="414" height="102.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="375.33333333333331" width="375" height="93"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8C-tt-QYJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="102.66666666666667" height="102.66666666666667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="0">
@@ -233,7 +233,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VsB-Oj-AVy">
-                                                <rect key="frame" x="103.66666666666669" y="0.0" width="103" height="102.66666666666667"/>
+                                                <rect key="frame" x="94" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title=".">
@@ -244,10 +244,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sg3-KP-Oqn">
-                                                <rect key="frame" x="207.66666666666666" y="0.0" width="102.66666666666666" height="102.66666666666667"/>
+                                                <rect key="frame" x="188" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
-                                                <state key="normal" title="Pi">
+                                                <state key="normal" title="π">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
@@ -255,7 +255,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxU-rk-2m7">
-                                                <rect key="frame" x="311.33333333333331" y="0.0" width="102.66666666666669" height="102.66666666666667"/>
+                                                <rect key="frame" x="282" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                                 <state key="normal" title="=">
@@ -273,7 +273,7 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="lvT-k1-xe8">
-                                <rect key="frame" x="0.0" y="81.333333333333329" width="414" height="137.66666666666669"/>
+                                <rect key="frame" x="0.0" y="213.66666666666663" width="375" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="lvT-k1-xe8" secondAttribute="height" multiplier="3:1" priority="999" id="3GD-uk-PWz"/>
                                 </constraints>
@@ -281,20 +281,88 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1b7-55-EUO" userLabel="Track Bars">
+                                <rect key="frame" x="0.0" y="35.999999999999986" width="375" height="187.66666666666663"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rau-29-mQr" userLabel="Track Bar3">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="62.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ilk-A1-6TT">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="62.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="Ilk-A1-6TT" secondAttribute="bottom" id="ImT-7V-fk0"/>
+                                            <constraint firstItem="Ilk-A1-6TT" firstAttribute="leading" secondItem="Rau-29-mQr" secondAttribute="leading" id="X1o-Fq-l6d"/>
+                                            <constraint firstItem="Ilk-A1-6TT" firstAttribute="top" secondItem="Rau-29-mQr" secondAttribute="top" id="hc4-ML-F8e"/>
+                                            <constraint firstItem="Ilk-A1-6TT" firstAttribute="centerY" secondItem="Rau-29-mQr" secondAttribute="centerY" id="nCE-fC-iBy"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ilk-A1-6TT" secondAttribute="trailing" id="oNf-m5-q2k"/>
+                                        </constraints>
+                                    </scrollView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VKw-xd-HgC" userLabel="Track Bar2">
+                                        <rect key="frame" x="0.0" y="62.666666666666671" width="375" height="62.333333333333329"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vjo-1A-5QI">
+                                                <rect key="frame" x="0.0" y="-0.6666666666666714" width="0.0" height="63.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Vjo-1A-5QI" firstAttribute="centerY" secondItem="VKw-xd-HgC" secondAttribute="centerY" id="4i3-YA-w67"/>
+                                            <constraint firstItem="Vjo-1A-5QI" firstAttribute="top" secondItem="VKw-xd-HgC" secondAttribute="top" id="WyJ-3B-dNW"/>
+                                            <constraint firstItem="Vjo-1A-5QI" firstAttribute="leading" secondItem="VKw-xd-HgC" secondAttribute="leading" id="Znb-aK-Oyp"/>
+                                            <constraint firstAttribute="trailing" secondItem="Vjo-1A-5QI" secondAttribute="trailing" id="eOh-Ia-zcx"/>
+                                            <constraint firstAttribute="bottom" secondItem="Vjo-1A-5QI" secondAttribute="bottom" id="lsb-tV-2Yi"/>
+                                        </constraints>
+                                    </scrollView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z8d-ds-Fmj" userLabel="Track Bar1">
+                                        <rect key="frame" x="0.0" y="125.00000000000001" width="375" height="62.666666666666671"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPE-v4-NaR">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="62.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="DPE-v4-NaR" secondAttribute="bottom" id="DUb-Yu-ZYa"/>
+                                            <constraint firstItem="DPE-v4-NaR" firstAttribute="leading" secondItem="Z8d-ds-Fmj" secondAttribute="leading" id="LXP-kK-3vp"/>
+                                            <constraint firstItem="DPE-v4-NaR" firstAttribute="top" secondItem="Z8d-ds-Fmj" secondAttribute="top" id="WeW-I5-8tC"/>
+                                            <constraint firstAttribute="trailing" secondItem="DPE-v4-NaR" secondAttribute="trailing" id="Z4q-WY-SVT"/>
+                                            <constraint firstItem="DPE-v4-NaR" firstAttribute="centerY" secondItem="Z8d-ds-Fmj" secondAttribute="centerY" id="z4L-u5-G4f"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1b7-55-EUO" secondAttribute="height" multiplier="2:1" id="R0M-5n-Um1"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="1b7-55-EUO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0W0-0J-2El"/>
                             <constraint firstAttribute="bottom" secondItem="UgU-c2-q84" secondAttribute="bottom" id="16H-Rp-ygu"/>
+                            <constraint firstAttribute="trailing" secondItem="1b7-55-EUO" secondAttribute="trailing" id="3Ah-55-93L"/>
                             <constraint firstItem="lvT-k1-xe8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="75L-go-6Ht"/>
                             <constraint firstAttribute="trailing" secondItem="lvT-k1-xe8" secondAttribute="trailing" id="BrR-aq-gbb"/>
                             <constraint firstItem="lvT-k1-xe8" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="top" id="C1b-Bj-HfN"/>
                             <constraint firstAttribute="trailing" secondItem="UgU-c2-q84" secondAttribute="trailing" id="IJJ-GU-MbR"/>
+                            <constraint firstItem="lvT-k1-xe8" firstAttribute="top" secondItem="1b7-55-EUO" secondAttribute="bottom" constant="-10" id="L14-ld-RIf"/>
                             <constraint firstItem="UgU-c2-q84" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XgG-mA-ewW"/>
-                            <constraint firstItem="UgU-c2-q84" firstAttribute="top" secondItem="lvT-k1-xe8" secondAttribute="bottom" id="zgd-p4-8Qa"/>
+                            <constraint firstItem="UgU-c2-q84" firstAttribute="top" secondItem="lvT-k1-xe8" secondAttribute="bottom" constant="5" id="zgd-p4-8Qa"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="TrackBar1" destination="DPE-v4-NaR" id="8oC-BN-j1o"/>
+                        <outlet property="TrackBar2" destination="Vjo-1A-5QI" id="8qS-fr-CPm"/>
+                        <outlet property="TrackBar3" destination="Ilk-A1-6TT" id="ncR-ej-oel"/>
                         <outlet property="screen" destination="lvT-k1-xe8" id="pG2-rv-gQT"/>
                         <outlet property="zero" destination="6C7-Up-xfM" id="ZF2-8P-tJc"/>
                         <outletCollection property="number" destination="t8C-tt-QYJ" collectionClass="NSMutableArray" id="jF1-Gl-sLZ"/>
@@ -320,6 +388,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.375" y="23.239436619718312"/>
         </scene>
     </scenes>
 </document>
